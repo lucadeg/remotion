@@ -1,8 +1,7 @@
+
 on:
-  push:
-    branches:
-      - main
-  pull_request:
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 name: Install and Test
 
 env:

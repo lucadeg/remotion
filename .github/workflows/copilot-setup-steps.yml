@@ -1,13 +1,8 @@
+
 name: 'Copilot Coding agent setup'
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - .github/workflows/copilot-setup-steps.yml
-  pull_request:
-    paths:
-      - .github/workflows/copilot-setup-steps.yml
-
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   copilot-setup-steps:
     runs-on: ubuntu-latest

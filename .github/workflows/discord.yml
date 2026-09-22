@@ -1,7 +1,9 @@
+
 name: Discord notifications
 
-on: [push, pull_request_target]
-
+on:
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   notify_discord:
     runs-on: ubuntu-24.04
